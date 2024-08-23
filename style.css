@@ -7,7 +7,10 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #87CEEB; /* Sky blue background for the game */
+    background-image: url('grass.avif'); /* Background map image */
+    background-size: cover; /* Ensures the background image covers the container */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #player {
